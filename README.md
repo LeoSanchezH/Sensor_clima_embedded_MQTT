@@ -5,6 +5,8 @@
 
 # PYMQTT LOGGER DEL CLIMA (ESP32)
 
+
+
 ## Introducción
 El **PYMQTT LOGGER DEL CLIMA (ESP32)** es un sistema basado en el protocolo MQTT para la transmisión de datos climáticos capturados por un sensor DHT22 conectado a un ESP32. Este proyecto permite la monitorización en tiempo real de temperatura y humedad a través de un broker MQTT. 
 
@@ -116,6 +118,9 @@ client.publish(MQTT_TOPIC, mensaje)
   - Verifica que el nombre del topic sea el miso que esta en el parameter **MQTT_TOPIC**
   - Contactame para verificar el estado del servidor MQTT.
 
+
+Para obtener un ejemplo en funcionamiento por favor seguir este link
+https://wokwi.com/projects/425139012393254913
 ---
 
 ## Créditos
